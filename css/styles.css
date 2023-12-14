@@ -353,7 +353,7 @@ address {
   padding-bottom: 100px;
 }
 
-.footer a {
+.footer .logo {
   margin-right: 0;
   display: inline-block;
   margin-bottom: 16px;
@@ -365,5 +365,23 @@ address {
 .footer-text {
   width: 264px;
   color: #f4f4fd;
+}
+
+.footer-container {
+  display: flex;
+  gap: 120px;
+  /* align-items: baseline; */
+}
+
+.footer-socials {
+  gap: 16px;
+}
+.footer-socials-text {
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  background-color: #31d0aa;
 }
 /* #endregion */
