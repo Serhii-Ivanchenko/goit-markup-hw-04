@@ -115,6 +115,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -151,6 +152,7 @@ address {
   margin-right: 40px;
 }
 .address-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #434455;
 }
 /* #endregion */
@@ -200,6 +202,7 @@ address {
   letter-spacing: 0.64px;
   background-color: #4d5ae5;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -271,6 +274,9 @@ address {
   background-color: #fff;
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item .item-title {
@@ -306,6 +312,7 @@ address {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover,
 .socials-link:focus {
@@ -373,13 +380,22 @@ address {
   /* align-items: baseline; */
 }
 
+.footer-wrapper {
+  /* margin-right: 120px; */
+}
 .footer-socials {
   gap: 16px;
 }
+
 .footer-socials-text {
   color: #fff;
   margin-bottom: 16px;
 }
+
+.footer-socials-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: #31d0aa;
